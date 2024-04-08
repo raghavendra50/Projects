@@ -26,10 +26,13 @@ const Section5 = () => {
       <h1 className="text-white text-3xl font-bold text-center lg:text-5xl lg:text-start">
         Frequently Asked Questions
       </h1>
-      <divc className="flex flex-col gap-1">
+      <div className="flex flex-col gap-1">
         {Object.keys(QA).map((key) => {
           return (
-            <div className="w-[400px] bg-[#2D2D2D] flex flex-col h-auto lg:w-[800px]">
+            <div
+              className="w-[400px] bg-[#2D2D2D] flex flex-col h-auto lg:w-[800px]"
+              key={key}
+            >
               <div className="w-[100%] h-1/4 flex justify-between items-center p-5 text-white text-xl">
                 {key}{" "}
                 <GoPlus
@@ -55,7 +58,7 @@ const Section5 = () => {
             </div>
           );
         })}
-      </divc>
+      </div>
     </div>
   );
 };

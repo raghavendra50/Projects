@@ -1,5 +1,4 @@
-import Mobile from "../assets/Mobile.jpg";
-import Kids from "../assets/Kids.png";
+import Kids from "../../assets/Kids.png";
 
 const Section4 = () => {
   return (

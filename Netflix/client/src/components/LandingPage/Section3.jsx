@@ -1,5 +1,5 @@
 import React from "react";
-import Devices from "../assets/Devices.png";
+import Devices from "../../assets/Devices.png";
 
 const Section3 = () => {
   return (

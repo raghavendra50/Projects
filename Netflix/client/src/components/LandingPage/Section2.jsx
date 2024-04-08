@@ -1,6 +1,6 @@
-import Mobile from "../assets/Mobile.jpg";
-import Movie from "../assets/Movie.png";
-import DownloadIcon from "../assets/DownloadIcon.gif";
+import Mobile from "../../assets/Mobile.jpg";
+import Movie from "../../assets/Movie.png";
+import DownloadIcon from "../../assets/DownloadIcon.gif";
 
 const Section2 = () => {
   return (

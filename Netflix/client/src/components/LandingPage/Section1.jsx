@@ -1,5 +1,5 @@
 import React from "react";
-import TV from "../assets/TV.png";
+import TV from "../../assets/TV.png";
 
 const Section1 = () => {
   return (
